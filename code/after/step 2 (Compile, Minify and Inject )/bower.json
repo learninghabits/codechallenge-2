@@ -1,0 +1,48 @@
+{
+  "name": "intro-gulp",
+  "description": "introduction to gulp",
+  "main": "server.js",
+  "authors": [
+    "tshepo ntlhokoa"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "clean-blog": "^1.0.1",
+    "ember": "1.6.0",
+    "jquery": "1.10.2",
+    "font-awesome": "4.6.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    },
+    "clean-blog": {
+      "main": [
+        "css/clean-blog.min.css",
+        "js/clean-blog.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "less/font-awesome.less",
+        "scss/font-awesome.scss",
+        "css/font-awesome.min.css"
+      ]
+    }
+  }
+}
